@@ -1,0 +1,33 @@
+GET http://localhost:8080/api/flower/list
+
+###
+POST http://localhost:8080/api/flower/add
+Content-Type: application/json
+
+{
+  "id":4,
+  "flower_type": "rose",
+  "sepal_length": 100,
+  "color": "blue",
+  "price": 100
+}
+###
+GET http://localhost:8080/api/flowers/payment
+
+###
+GET http://localhost:8080/api/flowers/delivery
+
+###
+GET http://localhost:8080/api/users/list
+
+
+###
+POST http://localhost:8080/api/users/add
+Content-Type: application/json
+
+{
+  "id": 2,
+  "email": "my@gmail.com",
+  "dob": "2018-05-25",
+  "age": 11
+}
