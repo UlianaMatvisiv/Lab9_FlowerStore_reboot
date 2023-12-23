@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Assertions;
 
 public class BasketDecoratorTest {
     private final int basketPrice = 4;
-    private final int FLOWERPRICE = 15;
+    private final int flowerP = 15;
     private BasketDecorator basketDecorator;
     private Flower flower;
 
@@ -23,7 +23,7 @@ public class BasketDecoratorTest {
 
     @Test
     public void testPrice() {
-        int flowerPrice = FLOWERPRICE;
+        int flowerPrice = flowerP;
         flower.setPrice(flowerPrice);
 
         int expectedPrice = flowerPrice + basketPrice;

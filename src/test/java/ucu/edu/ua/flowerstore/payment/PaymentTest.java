@@ -3,8 +3,7 @@ package ucu.edu.ua.flowerstore.payment;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ucu.edu.ua.flowerstore.payment.PayPalPaymentStrategy;
-import ucu.edu.ua.flowerstore.payment.CreditCardPaymentStrategy;
+
 public class PaymentTest {
     private CreditCardPaymentStrategy creditCard;
     private PayPalPaymentStrategy payPal;

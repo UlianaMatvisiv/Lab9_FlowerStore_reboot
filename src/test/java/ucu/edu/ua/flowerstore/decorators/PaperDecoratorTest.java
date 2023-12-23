@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Assertions;
 public class PaperDecoratorTest {
     private final int paperPrice = 20;
     private PaperDecorator paperDecorator;
-    private final int FLOWERPRICE = 65;
+    private final int flowerP = 65;
     private Flower flower;
 
     @BeforeEach
@@ -23,7 +23,7 @@ public class PaperDecoratorTest {
 
     @Test
     public void testPrice() {
-        int flowerPrice = FLOWERPRICE;
+        int flowerPrice = flowerP;
         flower.setPrice(flowerPrice);
 
         int expectedPrice = flowerPrice + paperPrice;
